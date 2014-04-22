@@ -1,7 +1,6 @@
 ## The following functions are responsible of creating a matrix that can cache its inverse. This helps to avoid having to run
 ##the same expensive computation multiple times. If the inverse has already been calculated it is cached and this is what will be used when the
 ##same value has to be calculated again. If its not cached yet the function will have to be run.
-## functions do
 
 ## The makeCacheMatrix creates a "special matrix" that can cache its inverse.
 #It also returns a list that contains functions to 
